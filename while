@@ -1,0 +1,14 @@
+int s = 5, adet = 0, top = 0;
+
+            while (s != 0)
+            {
+                adet++;
+                Console.WriteLine("{0}. sayıyı giriniz", adet);
+                s = Convert.ToInt16(Console.ReadLine());
+                top += s; //top=top+s;
+            }
+
+            Console.WriteLine("{0} adet sayı girilmiştir....", adet);
+            Console.WriteLine("Girilen sayıların Toplamı={0}", top);
+
+            Console.ReadKey();
